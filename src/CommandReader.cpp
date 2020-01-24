@@ -33,3 +33,7 @@ bool CommandReader::isKeyDown(sf::Keyboard::Key key) const {
 bool CommandReader::keyReleased(sf::Keyboard::Key key) const {
     return mLastReleased == key;
 }
+
+CommandReader::~CommandReader() {
+    delete mKeys;
+}

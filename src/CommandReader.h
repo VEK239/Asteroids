@@ -24,6 +24,7 @@ public:
 
     bool keyReleased(sf::Keyboard::Key key) const;
 
+    ~CommandReader();
 private:
     std::vector<bool>* mKeys;
     sf::Keyboard::Key mLastReleased;
