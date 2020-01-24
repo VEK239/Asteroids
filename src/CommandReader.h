@@ -2,6 +2,7 @@
 #pragma ide diagnostic ignored "modernize-use-nodiscard"
 //
 // Created by fools on 1/24/2020.
+// Based on https://github.com/Hopson97/open-builder/tree/master/src/client/input
 //
 
 #ifndef ASTEROIDS_COMMANDREADER_H
